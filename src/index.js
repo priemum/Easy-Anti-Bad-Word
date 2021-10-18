@@ -1,6 +1,6 @@
 const random = require('random-password-pkg')
 const db = require('quick.db')
-const Discord = require('discord.js')
+const Discord = require('discord.js')          
 const client = new Discord.Client()
 class badword {
   constructor(options) {
